@@ -42,6 +42,7 @@ def is_pow_of_five(number: int):
     else:
         return True and is_pow_of_five(number // 5)
 
+<<<<<<< HEAD
 
 def is_pow_of_two(number: int):
     if number < 1:
@@ -55,3 +56,5 @@ def is_pow_of_two(number: int):
 
     else:
         return True and is_pow_of_two(number // 2)
+=======
+>>>>>>> dev5
