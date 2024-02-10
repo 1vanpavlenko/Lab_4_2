@@ -27,8 +27,6 @@ def is_prime(number: int):
             return False
 
     return True
-<<<<<<< Updated upstream
-=======
 
 
 def is_pow_of_five(number: int):
@@ -57,4 +55,3 @@ def is_pow_of_two(number: int):
 
     else:
         return True and is_pow_of_two(number // 2)
->>>>>>> Stashed changes
