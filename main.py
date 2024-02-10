@@ -1,2 +1,5 @@
 from utils import *
-print(fact(6))
+
+print(is_prime(9))
+
+print(fact(9))
