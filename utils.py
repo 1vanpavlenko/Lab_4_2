@@ -27,3 +27,34 @@ def is_prime(number: int):
             return False
 
     return True
+<<<<<<< Updated upstream
+=======
+
+
+def is_pow_of_five(number: int):
+    if number < 1:
+        return False
+
+    if number == 1:
+        return True
+
+    if number % 5 != 0:
+        return False
+
+    else:
+        return True and is_pow_of_five(number // 5)
+
+
+def is_pow_of_two(number: int):
+    if number < 1:
+        return False
+
+    if number == 1:
+        return True
+
+    elif number % 2 != 0:
+        return False
+
+    else:
+        return True and is_pow_of_two(number // 2)
+>>>>>>> Stashed changes
